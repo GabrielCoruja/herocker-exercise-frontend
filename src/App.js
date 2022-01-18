@@ -2,7 +2,8 @@ import './App.css';
 
 import React, { useEffect, useState } from 'react';
 
-const API_ENDPOINT = 'http://localhost:3000/users';
+// const API_ENDPOINT = 'http://localhost:3001/users';
+const API_ENDPOINT = 'https://heroku-back-1123.herokuapp.com/users';
 
 function App() {
   const [data, setData] = useState([]);
